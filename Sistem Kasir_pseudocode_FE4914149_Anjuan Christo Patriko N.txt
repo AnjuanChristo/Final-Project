@@ -1,0 +1,32 @@
+DEKLARASI
+Jumlah Pesanan : Jumlah pesanan yang diinput (Integer)
+Nama Pesanan : Nama makanan yang dipesan (String)
+Harga Produk : Harga makanan (Integer)
+Jumlah Uang : Jumlah Uang yang diberikan (Integer)
+
+Deskripsi
+READ AND WRITE "Mulai"
+
+READ AND WRITE "Input Pesanan"
+
+WHILE "Jumlah Pesanan" = 0
+  Do "Mulai"
+
+If "Jumlah Pesanan" > 0
+  Print "Nama Pesanan"
+
+STORE "Total Harga" = "Jumlah Pesanan" * "Harga Produk"
+Print "Total Harga"
+
+Store "Pengembalian" = "Jumlah Uang" - "Total Harga"
+
+If Pembayaran "Tunai"
+ Print "Pembayaran Tunai"
+ Print "Pengembalian"
+Else
+ Print "Pembayaran QRIS"
+
+Print "Selesai"
+
+	   
+
